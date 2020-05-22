@@ -4,18 +4,18 @@ body {
 }
 
 #myVideo {
+  z-index: -1;
   display: block;
   width: 100%;
   margin: 0 auto;
-  mix-blend-mode: difference;
 }
 
 #logotype {
-  z-index: -1;
   width: 66%;
   position: fixed;
   top: 12%;
   left: 10%;
+  mix-blend-mode: difference;
 }
 
 .hand {
