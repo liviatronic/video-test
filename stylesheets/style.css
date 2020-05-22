@@ -1,0 +1,67 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#myVideo {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  mix-blend-mode: difference;
+}
+
+#logotype {
+  z-index: -1;
+  width: 66%;
+  position: fixed;
+  top: 12%;
+  left: 10%;
+}
+
+.hand {
+  position: absolute;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#hand-left {
+  width: 30%;
+  left: 6%;
+  bottom: 0;
+}
+
+#hand-right {
+  width: 36%;
+  right: 0;
+  top: 20%;
+}
+
+.tagline {
+  text-rendering: geometricPrecision;
+  font-family: 'NeueMachina', Courier, monospace;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 113%;
+
+  position: absolute;
+  right: 2%;
+  bottom: 10%;
+  letter-spacing: 0.05em;
+  color: #EFC1FF;
+  max-width: 30%;
+}
+
+.white {
+  color: #ffffff;
+}
+
+@font-face {
+  font-family: 'NeueMachina';
+  src: url("/fonts/NeueMachina-Light.woff") format("woff");
+  src: url("/fonts/NeueMachina-Light.woff2") format("woff2");
+}
